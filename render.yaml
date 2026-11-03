@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: biai-crm-pipeline
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    region: oregon
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: PORT
+        value: 10000
