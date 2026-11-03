@@ -13,6 +13,7 @@ import sys
 import os
 import json
 import argparse
+import asyncio
 from pathlib import Path
 
 # Add project root to path
@@ -143,28 +144,12 @@ def process_data(output_dir: str = "outputs") -> dict:
     }
 
 
-def main():
-    parser = argparse.ArgumentParser(description="BIAI CRM & Lead Pipeline System")
-    parser.add_argument("--process-only", action="store_true", 
-                       help="Process data and save to files without starting server")
-    parser.add_argument("--port", type=int, default=8000, help="Server port")
-    parser.add_argument("--host", type=str, default="0.0.0.0", help="Server host")
-    parser.add_argument("--output", type=str, default="outputs", help="Output directory")
-    args = parser.parse_args()
-    
-    # Process data
-    data = process_data(args.output)
-    
-    if args.process_only:
-        print("\n[OK] Processing complete. Files saved to:", args.output)
-        return
-    
-    # Initialize API data stores
+def initialize_runtime_data(data: dict) -> None:
+    """Load processed data into the API and persist it to SQLite."""
     from src.api.routes import set_crm_data, set_pipeline_data
     set_crm_data(data["crm"]["results"], data["crm"]["summary"])
     set_pipeline_data(data["pipeline"])
-    
-    # Persist to SQLite database
+
     from src.database.models import init_db, SessionLocal, save_enquiries_to_db, save_leads_to_db
     init_db()
     db = SessionLocal()
@@ -176,9 +161,35 @@ def main():
         print(f"[!] Database persistence skipped: {e}")
     finally:
         db.close()
+
+
+def main():
+    parser = argparse.ArgumentParser(description="BIAI CRM & Lead Pipeline System")
+    parser.add_argument("--process-only", action="store_true", 
+                       help="Process data and save to files without starting server")
+    parser.add_argument("--port", type=int, default=8000, help="Server port")
+    parser.add_argument("--host", type=str, default="0.0.0.0", help="Server host")
+    parser.add_argument("--output", type=str, default="outputs", help="Output directory")
+    args = parser.parse_args()
     
-    # Start server
+    if args.process_only:
+        data = process_data(args.output)
+        print("\n[OK] Processing complete. Files saved to:", args.output)
+        return
+
     app = create_app()
+
+    async def initialize_in_background() -> None:
+        try:
+            data = await asyncio.to_thread(process_data, args.output)
+            initialize_runtime_data(data)
+        except Exception as exc:
+            print(f"[ERROR] Startup data processing failed: {exc}")
+
+    @app.on_event("startup")
+    async def start_data_processing() -> None:
+        asyncio.create_task(initialize_in_background())
+
     port = int(os.environ.get("PORT", args.port))
     host = os.environ.get("HOST", args.host)
     print(f"\n{'=' * 60}")

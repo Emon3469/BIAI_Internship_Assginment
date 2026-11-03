@@ -23,11 +23,11 @@
     "confidence": 0.95,
     "reasoning": "Sales lead (pricing_inquiry). Corporate: False. Product: 3-day bootcamp. Deal: individual.",
     "ml_confidence": {
-      "sales_lead": 0.9316341294432843,
-      "support_issue": 0.03219311958418679,
-      "spam": 0.007112796503863271,
-      "job_seeker": 0.0036714860031256367,
-      "general_inquiry": 0.02538846846553996
+      "sales_lead": 0.9315744542220719,
+      "support_issue": 0.03220851618493313,
+      "spam": 0.0071137320034117164,
+      "job_seeker": 0.0036737718821720712,
+      "general_inquiry": 0.025429525707411207
     },
     "ml_top_category": "sales_lead",
     "rule_ml_agreement": true
@@ -56,11 +56,11 @@
     "confidence": 0.85,
     "reasoning": "Sales lead (direct_purchase_intent). Corporate: False. Product: fellowship program. Deal: individual.",
     "ml_confidence": {
-      "sales_lead": 0.7753072087411377,
-      "support_issue": 0.05407671915018825,
-      "spam": 0.009961506722557271,
-      "job_seeker": 0.020472388458034743,
-      "general_inquiry": 0.14018217692808219
+      "sales_lead": 0.7754219767671621,
+      "support_issue": 0.05406256187086373,
+      "spam": 0.009918424921262325,
+      "job_seeker": 0.02049236035824081,
+      "general_inquiry": 0.14010467608247124
     },
     "ml_top_category": "sales_lead",
     "rule_ml_agreement": true
@@ -89,11 +89,11 @@
     "confidence": 0.85,
     "reasoning": "Sales lead (corporate_training). Corporate: True. Product: AI training. Deal: medium.",
     "ml_confidence": {
-      "sales_lead": 0.775979632187522,
-      "support_issue": 0.1605375198109433,
-      "spam": 0.013460345429201964,
-      "job_seeker": 0.02921631686607467,
-      "general_inquiry": 0.020806185706258116
+      "sales_lead": 0.7760424441398913,
+      "support_issue": 0.16063254505867794,
+      "spam": 0.01348047071897089,
+      "job_seeker": 0.029021734831516006,
+      "general_inquiry": 0.020822805250943915
     },
     "ml_top_category": "sales_lead",
     "rule_ml_agreement": true
@@ -122,11 +122,11 @@
     "confidence": 0.7,
     "reasoning": "General inquiry (class_format). Could convert to a sale with proper follow-up.",
     "ml_confidence": {
-      "sales_lead": 0.05727046795632026,
-      "support_issue": 0.05490865901392405,
-      "spam": 0.009189375717349815,
-      "job_seeker": 0.01537153137118535,
-      "general_inquiry": 0.8632599659412206
+      "sales_lead": 0.057272480455588776,
+      "support_issue": 0.054894524149942565,
+      "spam": 0.00915705481555502,
+      "job_seeker": 0.015377066638781614,
+      "general_inquiry": 0.863298873940132
     },
     "ml_top_category": "general_inquiry",
     "rule_ml_agreement": true
@@ -155,11 +155,11 @@
     "confidence": 0.7,
     "reasoning": "General inquiry (student_discount). Could convert to a sale with proper follow-up.",
     "ml_confidence": {
-      "sales_lead": 0.18602906984116555,
-      "support_issue": 0.2738162256386866,
-      "spam": 0.019262555406199047,
-      "job_seeker": 0.021772605335310048,
-      "general_inquiry": 0.4991195437786388
+      "sales_lead": 0.18597557926075803,
+      "support_issue": 0.27395004048037985,
+      "spam": 0.01926582083822754,
+      "job_seeker": 0.02176029433287509,
+      "general_inquiry": 0.4990482650877595
     },
     "ml_top_category": "general_inquiry",
     "rule_ml_agreement": true
@@ -188,11 +188,11 @@
     "confidence": 0.7,
     "reasoning": "General inquiry (career_query). Could convert to a sale with proper follow-up.",
     "ml_confidence": {
-      "sales_lead": 0.08241895811685852,
-      "support_issue": 0.043739894825512,
-      "spam": 0.008336835041350063,
-      "job_seeker": 0.14760679377233618,
-      "general_inquiry": 0.7178975182439433
+      "sales_lead": 0.08227683114480423,
+      "support_issue": 0.04363417239227061,
+      "spam": 0.00835317673872882,
+      "job_seeker": 0.14828589762492755,
+      "general_inquiry": 0.7174499220992688
     },
     "ml_top_category": "general_inquiry",
     "rule_ml_agreement": true
@@ -221,11 +221,11 @@
     "confidence": 0.98,
     "reasoning": "Support issue (payment_issue). Urgency: medium.",
     "ml_confidence": {
-      "sales_lead": 0.05492084299883699,
-      "support_issue": 0.8913478815837377,
-      "spam": 0.009750635978265032,
-      "job_seeker": 0.004178286505971187,
-      "general_inquiry": 0.03980235293318903
+      "sales_lead": 0.05492373590487987,
+      "support_issue": 0.8913152502339514,
+      "spam": 0.009763730611034456,
+      "job_seeker": 0.004173889060492591,
+      "general_inquiry": 0.0398233941896418
     },
     "ml_top_category": "support_issue",
     "rule_ml_agreement": true
@@ -254,11 +254,11 @@
     "confidence": 0.98,
     "reasoning": "Support issue (refund_request). Urgency: high.",
     "ml_confidence": {
-      "sales_lead": 0.12458830906433076,
-      "support_issue": 0.551311893238343,
-      "spam": 0.014330516350014836,
-      "job_seeker": 0.03642916870638075,
-      "general_inquiry": 0.2733401126409308
+      "sales_lead": 0.12466916856943377,
+      "support_issue": 0.5512356162640195,
+      "spam": 0.014314527989774862,
+      "job_seeker": 0.0364823902755157,
+      "general_inquiry": 0.2732982969012561
     },
     "ml_top_category": "support_issue",
     "rule_ml_agreement": true
@@ -287,11 +287,11 @@
     "confidence": 0.7,
     "reasoning": "General inquiry (class_format). Could convert to a sale with proper follow-up.",
     "ml_confidence": {
-      "sales_lead": 0.020075486817537777,
-      "support_issue": 0.01517827526885128,
-      "spam": 0.003979857837058018,
-      "job_seeker": 0.01008346096291705,
-      "general_inquiry": 0.9506829191136359
+      "sales_lead": 0.0200944518704195,
+      "support_issue": 0.015180744113727662,
+      "spam": 0.003950004984512534,
+      "job_seeker": 0.010097956156567257,
+      "general_inquiry": 0.950676842874773
     },
     "ml_top_category": "general_inquiry",
     "rule_ml_agreement": true
@@ -320,11 +320,11 @@
     "confidence": 0.95,
     "reasoning": "Sales lead (corporate_training). Corporate: True. Product: AI training. Deal: large.",
     "ml_confidence": {
-      "sales_lead": 0.9038017501326677,
-      "support_issue": 0.05668164554584155,
-      "spam": 0.009016640335933223,
-      "job_seeker": 0.013797242005541879,
-      "general_inquiry": 0.01670272198001561
+      "sales_lead": 0.9037446666997772,
+      "support_issue": 0.056704310585160046,
+      "spam": 0.00905272633099143,
+      "job_seeker": 0.013772748877890928,
+      "general_inquiry": 0.016725547506180476
     },
     "ml_top_category": "sales_lead",
     "rule_ml_agreement": true
@@ -353,11 +353,11 @@
     "confidence": 0.98,
     "reasoning": "Spam patterns detected (crypto, earn USD, bit.ly).",
     "ml_confidence": {
-      "sales_lead": 0.010002943562784552,
-      "support_issue": 0.013187941283457245,
-      "spam": 0.9621766748717753,
-      "job_seeker": 0.003377328176317343,
-      "general_inquiry": 0.011255112105665615
+      "sales_lead": 0.010007138113995636,
+      "support_issue": 0.013191738790830791,
+      "spam": 0.9621581757394196,
+      "job_seeker": 0.0033797144475667734,
+      "general_inquiry": 0.011263232908187058
     },
     "ml_top_category": "spam",
     "rule_ml_agreement": true
@@ -386,11 +386,11 @@
     "confidence": 0.95,
     "reasoning": "Sales lead (pricing_inquiry). Corporate: False. Product: 3-day bootcamp. Deal: individual.",
     "ml_confidence": {
-      "sales_lead": 0.8816477031065415,
-      "support_issue": 0.014471227448705907,
-      "spam": 0.005541067682281586,
-      "job_seeker": 0.01753747263930393,
-      "general_inquiry": 0.0808025291231671
+      "sales_lead": 0.8817549764249006,
+      "support_issue": 0.014467123097877115,
+      "spam": 0.005484211778325286,
+      "job_seeker": 0.017554869159918492,
+      "general_inquiry": 0.08073881953897855
     },
     "ml_top_category": "sales_lead",
     "rule_ml_agreement": true
@@ -419,11 +419,11 @@
     "confidence": 0.7,
     "reasoning": "General inquiry (class_format). Could convert to a sale with proper follow-up.",
     "ml_confidence": {
-      "sales_lead": 0.1559204925710262,
-      "support_issue": 0.15891433324114038,
-      "spam": 0.015907023511774362,
-      "job_seeker": 0.02614332293657869,
-      "general_inquiry": 0.6431148277394804
+      "sales_lead": 0.15584957607243713,
+      "support_issue": 0.1589278439728245,
+      "spam": 0.01588737198942932,
+      "job_seeker": 0.026159709304390193,
+      "general_inquiry": 0.6431754986609189
     },
     "ml_top_category": "general_inquiry",
     "rule_ml_agreement": true
@@ -452,11 +452,11 @@
     "confidence": 0.75,
     "reasoning": "Weak sales signal with product interest (fellowship program).",
     "ml_confidence": {
-      "sales_lead": 0.8535137665982473,
-      "support_issue": 0.10848417477682712,
-      "spam": 0.011980919826618527,
-      "job_seeker": 0.00880381497341785,
-      "general_inquiry": 0.017217323824889164
+      "sales_lead": 0.8534509837103373,
+      "support_issue": 0.10851363686416438,
+      "spam": 0.012025208370078548,
+      "job_seeker": 0.008771187042703035,
+      "general_inquiry": 0.017238984012716656
     },
     "ml_top_category": "sales_lead",
     "rule_ml_agreement": true
@@ -485,11 +485,11 @@
     "confidence": 0.7,
     "reasoning": "General inquiry (addon). Could convert to a sale with proper follow-up.",
     "ml_confidence": {
-      "sales_lead": 0.0903488977479942,
-      "support_issue": 0.12552092323260894,
-      "spam": 0.010579335223000938,
-      "job_seeker": 0.032336055325575,
-      "general_inquiry": 0.7412147884708209
+      "sales_lead": 0.0903732112641742,
+      "support_issue": 0.1253008045092615,
+      "spam": 0.010561288625368283,
+      "job_seeker": 0.03240484883575086,
+      "general_inquiry": 0.7413598467654452
     },
     "ml_top_category": "general_inquiry",
     "rule_ml_agreement": true
@@ -518,11 +518,11 @@
     "confidence": 0.98,
     "reasoning": "Support issue (escalation). Urgency: high.",
     "ml_confidence": {
-      "sales_lead": 0.050474678759905654,
-      "support_issue": 0.9269132582132861,
-      "spam": 0.012998270609578411,
-      "job_seeker": 0.005634625369032037,
-      "general_inquiry": 0.003979167048197854
+      "sales_lead": 0.05044678715551156,
+      "support_issue": 0.926915591898307,
+      "spam": 0.013052310598744132,
+      "job_seeker": 0.005601020353136958,
+      "general_inquiry": 0.003984289994300435
     },
     "ml_top_category": "support_issue",
     "rule_ml_agreement": true
@@ -551,11 +551,11 @@
     "confidence": 0.7,
     "reasoning": "General inquiry (certification). Could convert to a sale with proper follow-up.",
     "ml_confidence": {
-      "sales_lead": 0.05567469738723192,
-      "support_issue": 0.04766172403320562,
-      "spam": 0.008401338392536529,
-      "job_seeker": 0.012488048477640045,
-      "general_inquiry": 0.875774191709386
+      "sales_lead": 0.05567042691991791,
+      "support_issue": 0.047636475791091086,
+      "spam": 0.008358966960481244,
+      "job_seeker": 0.012496430542464956,
+      "general_inquiry": 0.8758376997860449
     },
     "ml_top_category": "general_inquiry",
     "rule_ml_agreement": true
@@ -584,11 +584,11 @@
     "confidence": 0.85,
     "reasoning": "Sales lead (corporate_training). Corporate: True. Product: . Deal: small.",
     "ml_confidence": {
-      "sales_lead": 0.7744728682184484,
-      "support_issue": 0.06218842162330289,
-      "spam": 0.011197295166926462,
-      "job_seeker": 0.020765002344058446,
-      "general_inquiry": 0.13137641264726388
+      "sales_lead": 0.7745836219275415,
+      "support_issue": 0.062188368354827585,
+      "spam": 0.01116501398103078,
+      "job_seeker": 0.020780998098797913,
+      "general_inquiry": 0.1312819976378022
     },
     "ml_top_category": "sales_lead",
     "rule_ml_agreement": true
@@ -617,11 +617,11 @@
     "confidence": 0.95,
     "reasoning": "Sales lead (direct_purchase_intent). Corporate: False. Product: fellowship program. Deal: individual.",
     "ml_confidence": {
-      "sales_lead": 0.4061481571921094,
-      "support_issue": 0.14420313270377444,
-      "spam": 0.015110187846073733,
-      "job_seeker": 0.08962640769215444,
-      "general_inquiry": 0.34491211456588794
+      "sales_lead": 0.40595343768546555,
+      "support_issue": 0.14415187213449676,
+      "spam": 0.015124562768363081,
+      "job_seeker": 0.0898630887429227,
+      "general_inquiry": 0.3449070386687519
     },
     "ml_top_category": "sales_lead",
     "rule_ml_agreement": true
@@ -650,11 +650,11 @@
     "confidence": 0.98,
     "reasoning": "Job-seeking intent detected. Not a sales enquiry.",
     "ml_confidence": {
-      "sales_lead": 0.03289289045786737,
-      "support_issue": 0.01508112218278167,
-      "spam": 0.004356678338560174,
-      "job_seeker": 0.9175987489069659,
-      "general_inquiry": 0.03007056011382491
+      "sales_lead": 0.032923328632412964,
+      "support_issue": 0.01508481498415599,
+      "spam": 0.004337556560545174,
+      "job_seeker": 0.9175857110606926,
+      "general_inquiry": 0.030068588762193194
     },
     "ml_top_category": "job_seeker",
     "rule_ml_agreement": true
