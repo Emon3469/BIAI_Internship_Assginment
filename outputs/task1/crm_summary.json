@@ -1,0 +1,177 @@
+{
+  "total_enquiries": 20,
+  "unique_enquiries": 19,
+  "duplicates": 1,
+  "by_category": {
+    "sales_lead": 8,
+    "general_inquiry": 7,
+    "support_issue": 3,
+    "spam": 1,
+    "job_seeker": 1
+  },
+  "by_priority": {
+    "medium": 4,
+    "high": 7,
+    "low": 8,
+    "none": 1
+  },
+  "by_channel": {
+    "WhatsApp": 8,
+    "Facebook Messenger": 4,
+    "Website form": 4,
+    "Phone call note": 2,
+    "Facebook comment": 2
+  },
+  "by_language": {
+    "banglish": 7,
+    "bangla": 4,
+    "english": 9
+  },
+  "corporate_leads": [
+    {
+      "id": 3,
+      "sender": "Mahmud Hasan (Managing Director, Gazipur textile company)",
+      "company": "Managing Director, Gazipur textile company",
+      "deal_size": "medium",
+      "product": "AI training"
+    },
+    {
+      "id": 10,
+      "sender": "Kamrul Islam (HR, a bank in Motijheel)",
+      "company": "HR, a bank in Motijheel",
+      "deal_size": "large",
+      "product": "AI training"
+    },
+    {
+      "id": 18,
+      "sender": "Rezaul Karim (owner, small garment factory)",
+      "company": "owner, small garment factory",
+      "deal_size": "small",
+      "product": ""
+    }
+  ],
+  "action_items": [
+    {
+      "id": 2,
+      "priority": "high",
+      "sender": "Tahmina Akter",
+      "action": "Contact within 24 hours. Product: fellowship program.",
+      "category": "sales_lead"
+    },
+    {
+      "id": 3,
+      "priority": "high",
+      "sender": "Mahmud Hasan (Managing Director, Gazipur textile company)",
+      "action": "HIGH PRIORITY CORPORATE: Contact within 4 hours. Product: AI training.",
+      "category": "sales_lead"
+    },
+    {
+      "id": 8,
+      "priority": "high",
+      "sender": "Anika Chowdhury",
+      "action": "URGENT: Handle refund request. Respond within 2 hours.",
+      "category": "support_issue"
+    },
+    {
+      "id": 10,
+      "priority": "high",
+      "sender": "Kamrul Islam (HR, a bank in Motijheel)",
+      "action": "HIGH PRIORITY CORPORATE: Contact within 4 hours. Product: AI training.",
+      "category": "sales_lead"
+    },
+    {
+      "id": 16,
+      "priority": "high",
+      "sender": "Habibur Rahman",
+      "action": "URGENT: Handle escalation. Respond within 2 hours.",
+      "category": "support_issue"
+    },
+    {
+      "id": 18,
+      "priority": "high",
+      "sender": "Rezaul Karim (owner, small garment factory)",
+      "action": "HIGH PRIORITY CORPORATE: Contact within 4 hours. Product: to be determined.",
+      "category": "sales_lead"
+    },
+    {
+      "id": 19,
+      "priority": "high",
+      "sender": "Samira",
+      "action": "Contact within 24 hours. Product: fellowship program.",
+      "category": "sales_lead"
+    },
+    {
+      "id": 1,
+      "priority": "medium",
+      "sender": "Rafi Ahmed",
+      "action": "Contact within 24 hours. Product: 3-day bootcamp.",
+      "category": "sales_lead"
+    },
+    {
+      "id": 7,
+      "priority": "medium",
+      "sender": "Farzana Rahman",
+      "action": "Handle payment issue. Respond within 24 hours.",
+      "category": "support_issue"
+    },
+    {
+      "id": 14,
+      "priority": "medium",
+      "sender": "Shirin Sultana",
+      "action": "Contact within 24 hours. Product: fellowship program.",
+      "category": "sales_lead"
+    },
+    {
+      "id": 4,
+      "priority": "low",
+      "sender": "Sabbir",
+      "action": "Respond to class format question. May convert to sales lead.",
+      "category": "general_inquiry"
+    },
+    {
+      "id": 5,
+      "priority": "low",
+      "sender": "Nasreen Sultana",
+      "action": "Respond to student discount question. May convert to sales lead.",
+      "category": "general_inquiry"
+    },
+    {
+      "id": 6,
+      "priority": "low",
+      "sender": "Ishtiaq",
+      "action": "Respond to career query question. May convert to sales lead.",
+      "category": "general_inquiry"
+    },
+    {
+      "id": 9,
+      "priority": "low",
+      "sender": "Jahid",
+      "action": "Respond to class format question. May convert to sales lead.",
+      "category": "general_inquiry"
+    },
+    {
+      "id": 13,
+      "priority": "low",
+      "sender": "Mim",
+      "action": "Respond to class format question. May convert to sales lead.",
+      "category": "general_inquiry"
+    },
+    {
+      "id": 15,
+      "priority": "low",
+      "sender": "Tanvir",
+      "action": "Respond to addon question. May convert to sales lead.",
+      "category": "general_inquiry"
+    },
+    {
+      "id": 17,
+      "priority": "low",
+      "sender": "Nowshin",
+      "action": "Respond to certification question. May convert to sales lead.",
+      "category": "general_inquiry"
+    }
+  ],
+  "sales_leads_count": 8,
+  "support_issues_count": 3,
+  "spam_count": 1
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "keep": "L01",
+    "remove": "L23",
+    "reason": "explicit_note",
+    "keep_index": 0,
+    "remove_index": 22
+  },
+  {
+    "keep": "L02",
+    "remove": "L03",
+    "reason": "explicit_note",
+    "keep_index": 1,
+    "remove_index": 2
+  }
+]

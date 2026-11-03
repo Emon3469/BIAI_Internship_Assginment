@@ -1,0 +1,162 @@
+{
+  "reference_date": "2026-11-01",
+  "total_leads": 25,
+  "unique_leads": 23,
+  "duplicates_found": 2,
+  "data_issues_count": 7,
+  "funnel": {
+    "New": 3,
+    "Contacted": 8,
+    "Meeting": 5,
+    "Proposal": 2,
+    "Invoice sent": 2,
+    "Paid": 1,
+    "Lost": 2
+  },
+  "pipeline_value": {
+    "total_bdt": 3170000.0,
+    "weighted_bdt": 1792000.0,
+    "average_deal_bdt": 317000.0,
+    "deals_with_value": 10
+  },
+  "overdue": {
+    "count": 8,
+    "by_stage": {
+      "Contacted": 5,
+      "Meeting": 2,
+      "Invoice sent": 1
+    },
+    "leads": [
+      {
+        "lead_id": "L04",
+        "company": "Karnaphuli Foods",
+        "stage": "Contacted",
+        "days_overdue": 3,
+        "deal_value": 0.0
+      },
+      {
+        "lead_id": "L06",
+        "company": "Sylhet Tea Traders",
+        "stage": "Contacted",
+        "days_overdue": 10,
+        "deal_value": 0.0
+      },
+      {
+        "lead_id": "L10",
+        "company": "Oriental Bank Branch Ops",
+        "stage": "Meeting",
+        "days_overdue": 2,
+        "deal_value": 500000.0
+      },
+      {
+        "lead_id": "L13",
+        "company": "Mou Telecom",
+        "stage": "Contacted",
+        "days_overdue": 4,
+        "deal_value": 0.0
+      },
+      {
+        "lead_id": "L15",
+        "company": "Gulshan Dental Chain",
+        "stage": "Contacted",
+        "days_overdue": 13,
+        "deal_value": 0.0
+      },
+      {
+        "lead_id": "L19",
+        "company": "Ruhi Digital Agency",
+        "stage": "Meeting",
+        "days_overdue": 2,
+        "deal_value": 120000.0
+      },
+      {
+        "lead_id": "L20",
+        "company": "Cumilla Pharma Depot",
+        "stage": "Contacted",
+        "days_overdue": 5,
+        "deal_value": 0.0
+      },
+      {
+        "lead_id": "L22",
+        "company": "Khulna Jute Works",
+        "stage": "Invoice sent",
+        "days_overdue": 8,
+        "deal_value": 150000.0
+      }
+    ]
+  },
+  "by_source": {
+    "Referral": 5,
+    "LinkedIn": 5,
+    "Cold email": 4,
+    "Event": 3,
+    "Walk-in": 2,
+    "Website form": 2,
+    "Facebook ad": 2
+  },
+  "by_industry": {
+    "Garments": 3,
+    "Agriculture": 3,
+    "Manufacturing": 3,
+    "Pharma": 2,
+    "FMCG": 2,
+    "Logistics": 2,
+    "Energy": 1,
+    "Banking": 1,
+    "Telecom": 1,
+    "Healthcare": 1,
+    "Retail": 1,
+    "Marketing": 1,
+    "Real estate": 1,
+    "Hospitality": 1
+  },
+  "risk_distribution": {
+    "low": 9,
+    "medium": 8,
+    "high": 3,
+    "none": 3
+  },
+  "high_priority_actions": [
+    {
+      "lead_id": "L15",
+      "company": "Gulshan Dental Chain",
+      "stage": "Contacted",
+      "days_overdue": 13,
+      "deal_value": 0.0,
+      "action": "OVERDUE (13 days): Follow up on initial conversation. Send details if not done."
+    },
+    {
+      "lead_id": "L06",
+      "company": "Sylhet Tea Traders",
+      "stage": "Contacted",
+      "days_overdue": 10,
+      "deal_value": 0.0,
+      "action": "OVERDUE (10 days): Follow up on initial conversation. Send details if not done."
+    },
+    {
+      "lead_id": "L22",
+      "company": "Khulna Jute Works",
+      "stage": "Invoice sent",
+      "days_overdue": 8,
+      "deal_value": 150000.0,
+      "action": "OVERDUE (8 days): Check payment status. Send payment reminder if needed."
+    },
+    {
+      "lead_id": "L20",
+      "company": "Cumilla Pharma Depot",
+      "stage": "Contacted",
+      "days_overdue": 5,
+      "deal_value": 0.0,
+      "action": "OVERDUE (5 days): Follow up on initial conversation. Send details if not done."
+    },
+    {
+      "lead_id": "L13",
+      "company": "Mou Telecom",
+      "stage": "Contacted",
+      "days_overdue": 4,
+      "deal_value": 0.0,
+      "action": "OVERDUE (4 days): Follow up on initial conversation. Send details if not done."
+    }
+  ],
+  "auto_lost_suggestions": []
+}

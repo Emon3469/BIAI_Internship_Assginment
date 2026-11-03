@@ -1,0 +1,45 @@
+[
+  {
+    "lead_id": "L25",
+    "issue": "date_order_error",
+    "detail": "next_follow_up (2026-10-21) is before last_contact (2026-10-28)",
+    "fix": "Set next_follow_up to last_contact + 7 days"
+  },
+  {
+    "lead_id": "L06",
+    "issue": "missing_contact_phone",
+    "detail": "No phone number on file",
+    "fix": "Request during next follow-up"
+  },
+  {
+    "lead_id": "L18",
+    "issue": "email_case_normalized",
+    "detail": "Email 'shahidul@bogurateXtile.example' contains uppercase characters",
+    "fix": "Normalize to: shahidul@boguratextile.example"
+  },
+  {
+    "lead_id": "L24",
+    "issue": "missing_contact_name",
+    "detail": "No contact name on file",
+    "fix": "Needs manual data entry from phone follow-up"
+  },
+  {
+    "lead_id": "L24",
+    "issue": "missing_contact_email",
+    "detail": "No email address on file",
+    "fix": "Request during next follow-up"
+  },
+  {
+    "lead_id": "L12",
+    "issue": "stage_mismatch",
+    "detail": "Stage is 'Paid' but notes indicate payment is still pending",
+    "fix": "Consider changing stage to 'Invoice sent' until full payment received",
+    "suggested_stage": "Invoice sent"
+  },
+  {
+    "lead_id": "L16",
+    "issue": "lost_confirmed",
+    "detail": "Lost status confirmed by notes — do not re-contact",
+    "fix": "Keep as Lost. Set calendar reminder for re-evaluation."
+  }
+]
